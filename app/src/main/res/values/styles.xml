@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="boeing" parent="android:Theme.Black.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorBoeingBraun</item>
+        <item name="android:buttonStyle">@style/cduButton</item>
+        <item name="android:imageButtonStyle">@style/cduButton</item>
+        <item name="android:editTextStyle">@style/boeingEditText</item>
+        <item name="listViewBorder">@drawable/border_cdu_boeing</item>
+        <item name="android:radioButtonStyle">@style/boeingRadioButton</item>
+        <item name="android:alertDialogStyle">@style/boeingDialog</item>
+        <item name="textViewLook">@drawable/textfield_boeing_normal</item>
+        <item name="dialogBackground">@drawable/dialog_background_boeing</item>
+        <item name="dialogBackgroundPlain">@color/colorBoeingBraun</item>
+        <item name="groupRowColor">@color/colorWhite</item>
+        <item name="groupIndicator">@drawable/shape_selector</item>
+        <item name="colorBackground">@color/colorBoeingBraun</item>
+        <item name="divider">@drawable/list_divider_white</item>
+        <item name="divider50">@drawable/list_divider_white_50</item>
+    </style>
+
+    <style name="boeing_grey" parent="android:Theme.Black.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorBoeingGrey</item>
+        <item name="android:buttonStyle">@style/cduButton</item>
+        <item name="android:imageButtonStyle">@style/cduButton</item>
+        <item name="android:editTextStyle">@style/boeingGreyEditText</item>
+        <item name="listViewBorder">@drawable/border_cdu_boeing_grey</item>
+        <item name="android:radioButtonStyle">@style/boeingGreyRadioButton</item>
+        <item name="android:alertDialogStyle">@style/boeingGreyDialog</item>
+        <item name="textViewLook">@drawable/textfield_boeing_grey_normal</item>
+        <item name="dialogBackground">@drawable/dialog_background_boeing_grey</item>
+        <item name="dialogBackgroundPlain">@color/colorBoeingGrey</item>
+        <item name="groupRowColor">@color/colorWhite</item>
+        <item name="groupIndicator">@drawable/shape_selector</item>
+        <item name="colorBackground">@color/colorBoeingGrey</item>
+        <item name="divider">@drawable/list_divider_green</item>
+        <item name="divider50">@drawable/list_divider_green50</item>
+    </style>
+
+    <style name="airbus" parent="android:Theme.Black.NoTitleBar">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/colorAirbusBlue</item>
+        <item name="android:buttonStyle">@style/cduButton</item>
+        <item name="android:imageButtonStyle">@style/cduButton</item>
+        <item name="android:editTextStyle">@style/airbusEditText</item>
+        <item name="listViewBorder">@drawable/border_cdu_airbus</item>
+        <item name="android:radioButtonStyle">@style/airbusRadioButton</item>
+        <item name="android:alertDialogStyle">@style/airbusDialog</item>
+        <item name="textViewLook">@drawable/textfield_airbus_normal</item>
+        <item name="dialogBackground">@drawable/dialog_background_airbus</item>
+        <item name="dialogBackgroundPlain">@color/colorAirbusBlue</item>
+        <item name="groupRowColor">@color/colorGreen</item>
+        <item name="groupIndicator">@drawable/shape_selector_green</item>
+        <item name="colorBackground">@color/colorAirbusBlue</item>
+        <item name="divider">@drawable/list_divider_white</item>
+        <item name="divider50">@drawable/list_divider_white_50</item>
+    </style>
+
+    <style name="boeingEditText">
+        <item name="android:background">@drawable/textfield_boeing</item>
+        <item name="android:textAppearance">@style/textDisplayAppearance</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="boeingGreyEditText">
+        <item name="android:background">@drawable/textfield_boeing_grey</item>
+        <item name="android:textAppearance">@style/textDisplayAppearance</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="airbusEditText">
+        <item name="android:background">@drawable/textfield_airbus</item>
+        <item name="android:textAppearance">@style/textDisplayAppearance</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="cduButton">
+        <item name="android:background">@drawable/btn_cdu</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="boeingRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/btn_radio_boeing</item>
+    </style>
+
+    <style name="boeingGreyRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/btn_radio_boeing_grey</item>
+    </style>
+
+    <style name="airbusRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:button">@drawable/btn_radio_airbus</item>
+    </style>
+
+    <style name="whiteFrame">
+        <item name="android:background">@drawable/border_white</item>
+    </style>
+
+    <style name="boeingDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:buttonStyle">@style/cduButton</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="textViewLook">@drawable/textfield_boeing_normal</item>
+        <item name="dialogBackground">@drawable/dialog_background_boeing</item>
+        <item name="dialogBackgroundPlain">@color/colorBoeingBraun</item>
+    </style>
+
+    <style name="boeingGreyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:buttonStyle">@style/cduButton</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="textViewLook">@drawable/textfield_boeing_grey_normal</item>
+        <item name="dialogBackground">@drawable/dialog_background_boeing_grey</item>
+        <item name="dialogBackgroundPlain">@color/colorBoeingGrey</item>
+    </style>
+
+    <style name="airbusDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:buttonStyle">@style/cduButton</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="textViewLook">@drawable/textfield_airbus_normal</item>
+        <item name="dialogBackground">@drawable/dialog_background_airbus</item>
+        <item name="dialogBackgroundPlain">@color/colorAirbusBlue</item>
+    </style>
+
+    <style name="textDisplayAppearance">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="fontTextSmall">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+    <style name="fontTextMedium">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="fontTextLarge">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="fontTitleSmall">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="fontTitleMedium">
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="fontTitleLarge">
+        <item name="android:textSize">24dp</item>
+    </style>
+
+</resources>

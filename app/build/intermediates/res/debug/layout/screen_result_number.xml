@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tvHeader"
+        android:textColor="@color/colorWhite50" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/tvCodeNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="16dp"
+        android:text="Code : XX.X"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="?listViewBorder"
+        android:padding="16dp" >
+
+        <TextView
+            android:id="@+id/tvCodeContent"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:text="The code content goes here..."
+            android:textColor="@color/colorWhite" />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linlayBtnPrevNext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/btnPreviousCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/previous_code"
+            android:textSize="18dp" >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnOK"
+            android:layout_width="80dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginRight="48dp"
+            android:text="@string/btnOK"
+            android:textSize="18dp" />
+
+        <Button
+            android:id="@+id/btnNextCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next_code"
+            android:textSize="18dp" >
+
+        </Button>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/C:/Users/Cyril/Documents/Programmation/AndroidStudioProjects/DelCo/app/src/main/res/layout/screen_result_number.xml -->

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Users/Cyril/Documents/Programmation/AndroidStudioProjects/DelCo/app/src/main/res/values-fr/strings.xml -->
+    <eat-comment/>
+    <string name="ChooseIataTable">Choix des codes</string>
+    <string name="EnterCodeNumber">Recherche de code par numéro</string>
+    <string name="FontSizeLarge">Grande</string>
+    <string name="FontSizeMedium">Moyenne</string>
+    <string name="FontSizeSmall">Petite</string>
+    <string name="HintKeyword">Rechercher…</string>
+    <string name="SearchBy">Recherche :</string>
+    <string name="SearchByKeyword">Mot-clé</string>
+    <string name="SearchByNumber">Numéro</string>
+    <string name="all_categories">Toutes les categories</string>
+    <string name="app_must_be_closed">L\'application doit être fermée pour appliquer le nouveau thème…</string>
+    <string name="btnSettingsBack">Retour</string>
+    <string name="collapse">Refermer :</string>
+    <string name="email_subject">A propos de DelCo…</string>
+    <string name="no_email_client">Aucun logiciel d\'email trouvé sur cet appareil…</string>
+    <string name="search_code_by_keyword">Recherche par mot-clé</string>
+    <string name="settings">Réglages</string>
+    <string name="settingsFontSize">Taille de la police d\'affichage</string>
+    <string name="settingsTheme">Thème</string>
+    <string name="strNextCode">Code suivant</string>
+    <string name="strPreviousCode">Code précédent</string>
+    <string name="toastKeywordStringEmpty">Mot-clé invalide !</string>
+    <string name="toastNoCodeFound">Aucun code correspondant dans la base de données…</string>
+    <string name="tvHelpContent"> - Cliquer sur une catégorie pour afficher tous ses codes.\n\n - Cliquer sur le bouton "Numéro" pour rechercher un
+code par son numéro.\n\n - Cliquer sur le bouton "Mot-clé" pour rechercher tous les codes contenants un ou des mots particuliers.\n\n - Un clic long sur la liste permet de refermer toutes les catégories.\n\n
+- Cliquer sur le bouton de réglages pour choisir la base de données à utiliser.\n\n\n Auteur : Cyril REAL\n Contact :
+cyril.real@gmail.com</string>
+    <string name="tvHelpTitle">Aide</string>
+    <string name="tvResultKeyword">Code(s) contenant le mot-clé:</string>
+    <string name="web_adress">http://cyril.real.free.fr/?page_id=25</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="btnSettingsBack">Back</string>
+    <string name="tvHelpContent"> - Click a category to expand and show the codes.\n\n - Click
+		"Number" button to search a code by its number.\n\n - Click "Keyword"
+		button to search all codes containing one or more keywords.\n\n - Long
+		click on the list to collapse all opened categories.\n\n - Click the
+		settings button to select the database you want to use.\n\n\n Author :
+		Cyril REAL\n Contact : cyril.real@gmail.com</string>
+    <string name="app_must_be_closed">Application must be closed for new theme to take effect…</string>
+    <string name="tvHelpTitle">Help</string>
+    <string name="ChooseIataTable">Choose your codes</string>
+    <string name="SearchBy">Search by :</string>
+    <string name="HintKeyword">Search for…</string>
+    <string name="tvResultKeyword">List of codes containing keyword:</string>
+    <string name="btnOK">OK</string>
+    <string name="EnterCodeNumber">Search code by number</string>
+    <string name="tvHeader">DelCo : airlines Delay Codes</string>
+    <string name="SearchByKeyword">Keyword</string>
+    <string name="SearchByNumber">Number</string>
+    <string name="app_name">DelCo</string>
+    <string name="VersionNumber">1.4</string>
+    <color name="colorTransparent">#0000</color>
+    <color name="colorLightCyan">#E0FFFF</color>
+    <color name="colorLightGrey">#D0D0D0</color>
+
+    <string name="toastNoCodeFound">No such code found in database…</string>
+    <string name="toastKeywordStringEmpty">Keyword string was empty !</string>
+    <string name="strNextCode">Next code</string>
+    <string name="strPreviousCode">Previous Code</string>
+    <string name="strCode">Code :</string>
+    <string name="strExportCodes">Export</string>
+    <string name="strImportCodes">Import</string>
+
+    <color name="colorOrange">#ffa500</color>
+    <color name="colorNavy">#000080</color>
+    <color name="colorDarkGrey">#555</color>
+    <color name="colorMediumGrey">#777</color>
+    <color name="colorWhite30">#5fff</color>
+    <color name="colorWhite50">#8fff</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBoeingBraun">#947c5a</color>
+    <color name="colorBoeingGrey">#7b818d</color>
+    <color name="colorBoeingBraunDark">#352925</color>
+    <color name="colorAirbusBlue">#667b9a</color>
+    <color name="colorGreen">#0F0</color>
+    <color name="colorGreen75">#B0F0</color>
+    <color name="colorGreen50">#70F0</color>
+    <color name="colorGreen25">#30F0</color>
+
+    <string name="settingsTheme">Theme</string>
+    <string name="airbus">Airbus</string>
+    <string name="boeing">Boeing</string>
+    <string name="boeing_grey">Boeing (vintage)</string>
+    <string name="previous_code">←</string>
+    <string name="next_code">→</string>
+    <string name="settingsFontSize">Font size</string>
+    <string name="FontSizeSmall">Small</string>
+    <string name="FontSizeMedium">Medium</string>
+    <string name="FontSizeLarge">Large</string>
+    <string name="email">email</string>
+    <string name="www">www</string>
+    <string name="no_email_client">No email client found on this device…</string>
+    <string name="email_adress">cyril.real@gmail.com</string>
+    <string name="email_subject">About DelCo…</string>
+    <string name="web_adress">http://cyril.real.free.fr/?page_id=84</string>
+    <string name="search_code_by_keyword">Search code by keyword</string>
+    <string name="settings">Settings</string>
+    <string name="airfrance">Air France</string>
+    <string name="iata_en">IATA</string>
+    <string name="corsair">Corsair</string>
+    <string name="aircanada">Air Canada</string>
+    <string name="aerolineas_argentinas">Aerolineas Argentinas</string>
+    <string name="wizz_air">Wizz Air</string>
+    <string name="collapse">Collapse :</string>
+    <string name="all_categories">All categories</string>
+    <string name="lufthansa">Lufthansa</string>
+    <string name="aegan">Aegan</string>
+    <string name="easyjet">easyJet</string>
+    <string name="turkish_airlines">Turkish Airlines</string>
+
+</resources>

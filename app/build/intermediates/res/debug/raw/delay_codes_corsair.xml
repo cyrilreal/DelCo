@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annuaire>
+<code>
+			<category>CODES PROPRES CORSAIR / CORSAIR INTERNAL CODES</category>
+			<number>01</number>
+			<content>Débarquement passagers.
+
+Deboarding.</content>
+		</code>
+		<code>
+			<category>CODES PROPRES CORSAIR / CORSAIR INTERNAL CODES</category>
+			<number>02</number>
+			<content>Retard navette Equipage.
+
+Crew shuttle delay.</content>
+		</code>
+		<code>
+			<category>CODES PROPRES CORSAIR / CORSAIR INTERNAL CODES</category>
+			<number>03</number>
+			<content>Escale.
+
+Station.</content>
+		</code>
+		<code>
+			<category>CODES PROPRES CORSAIR / CORSAIR INTERNAL CODES</category>
+			<number>04</number>
+			<content>Défaut système chargement PDU, verrou, etc.
+
+Aircraft loading equipment failure : PDU, lockers, etc.</content>
+		</code>
+		<code>
+			<category>CODES PROPRES CORSAIR / CORSAIR INTERNAL CODES</category>
+			<number>05</number>
+			<content>Armement cabine assuré par ARCA.
+
+Cabin equipment supply.</content>
+		</code>
+		<code>
+			<category>CODES PROPRES CORSAIR / CORSAIR INTERNAL CODES</category>
+			<number>06</number>
+			<content>Débarquement/Embarquement des PHMR.
+
+Deboarding/Boarding of reduced mobility person.</content>
+		</code>
+		<code>
+			<category>CODES PROPRES CORSAIR / CORSAIR INTERNAL CODES</category>
+			<number>09</number>
+			<content>Programmation : temps d'escale programmé inférieur au temps d'escale minimum.
+
+Schedules : Scheduled ground time less than declared minimum ground time.</content>
+		</code>
+		<code>
+			<category>PASSAGERS ET BAGAGES / PASSENGER AND BAGGAGE HANDLING</category>
+			<number>11</number>
+			<content>Retard enregistrement : acceptation après HLE.
+
+Late Check-in : acceptance after.</content>
+		</code>
+		<code>
+			<category>PASSAGERS ET BAGAGES / PASSENGER AND BAGGAGE HANDLING</category>
+			<number>12</number>
+			<content>Retard enregistrement : encombrement de la zone d'enregistrement.
+
+Late Check-in : congestion in check-in area.</content>
+		</code>
+		<code>
+			<category>PASSAGERS ET BAGAGES / PASSENGER AND BAGGAGE HANDLING</category>
+			<number>13</number>
+			<content>Erreur enregistrement : passagers et bagages.
+
+Check-in error : passengers and baggage.</content>
+		</code>
+		<code>
+			<category>PASSAGERS ET BAGAGES / PASSENGER AND BAGGAGE HANDLING</category>
+			<number>14</number>
+			<content>Ventes : erreur, surbooking, goshow, mauvaise convocation des passagers.
+
+Over sales : bookings errors, wrong departure time given to the passengers.</content>
+		</code>
+		<code>
+			<category>PASSAGERS ET BAGAGES / PASSENGER AND BAGGAGE HANDLING</category>
+			<number>15</number>
+			<content>Embarquement : divergences comptes passagers / documents, appels passagers.
+
+Boarding : discrepancies and paging, missing checked-in passenger.</content>
+		</code>
+		<code>
+			<category>PASSAGERS ET BAGAGES / PASSENGER AND BAGGAGE HANDLING</category>
+			<number>16</number>
+			<content>Publicité commerciale / Agréments aux passagers : presse, TV, maladie/décès, pax vip.
+
+Commercial Publicity / Passenger Convenience : VIP, Press, Ground meals and missing personal items.</content>
+		</code>
+		<code>
+			<category>PASSAGERS ET BAGAGES / PASSENGER AND BAGGAGE HANDLING</category>
+			<number>17</number>
+			<content>Commissariat : Erreur ou retard dans les commandes au prestataire.
+
+Catering order, late or incorrect order given to supplier.</content>
+		</code>
+		<code>
+			<category>PASSAGERS ET BAGAGES / PASSENGER AND BAGGAGE HANDLING</category>
+			<number>18</number>
+			<content>Traitement des bagages : dans l'aérogare.
+
+Baggage processing, sorting, etc. : in the airport building.</content>
+		</code>
+		<code>
+			<category>FRET ET POSTE / CARGO AND MAIL</category>
+			<number>21</number>
+			<content>Documentation : erreur, remise tardive, etc.
+
+Documentation : errors, late presentation, etc.</content>
+		</code>
+		<code>
+			<category>FRET ET POSTE / CARGO AND MAIL</category>
+			<number>22</number>
+			<content>Présentation tardive à l'avion.
+
+Late positioning.</content>
+		</code>
+		<code>
+			<category>FRET ET POSTE / CARGO AND MAIL</category>
+			<number>23</number>
+			<content>Acceptation tardive.
+
+Late acceptance.</content>
+		</code>
+		<code>
+			<category>FRET ET POSTE / CARGO AND MAIL</category>
+			<number>24</number>
+			<content>Emballages mal conditionnés.
+
+Inadequate packing.</content>
+		</code>
+		<code>
+			<category>FRET ET POSTE / CARGO AND MAIL</category>
+			<number>25</number>
+			<content>Ventes: erreur, surbooking.
+
+Ovesales : error, overbooking.</content>
+		</code>
+		<code>
+			<category>FRET ET POSTE / CARGO AND MAIL</category>
+			<number>26</number>
+			<content>Préparation tardive ou mauvaise préparation des contenants à l'entrepôt.
+
+Late or inadequate preparation in warehouse. </content>
+		</code>
+		<code>
+			<category>POSTES SEULES / MAIL ONLY</category>
+			<number>27</number>
+			<content>Documents, emballages, etc.
+
+Documentation, packing, etc.</content>
+		</code>
+		<code>
+			<category>POSTES SEULES / MAIL ONLY</category>
+			<number>28</number>
+			<content>Présentation tardive à l'avion.
+
+Late positioning.</content>
+		</code>
+		<code>
+			<category>POSTES SEULES / MAIL ONLY</category>
+			<number>29</number>
+			<content>Acceptation tardive.
+
+Late acceptance.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AU SOL / AIRCRAFT AND RAMP HANDLING</category>
+			<number>31</number>
+			<content>Documents de bord: erreur ou remise tardive état de charge/centrage, dg, manifestes.
+
+Aircraft documentate : late inaccurate : weight and balance, general declaration, pax manifest.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AU SOL / AIRCRAFT AND RAMP HANDLING</category>
+			<number>32</number>
+			<content>Chargement / Déchargement : chargement spécial, chargement en cabine, tension personnel.
+
+Loadind / Unloading : Bulky, special load, lack of staff.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AU SOL / AIRCRAFT AND RAMP HANDLING</category>
+			<number>33</number>
+			<content>Matériel de chargement: manque ou panne de matériel de chargement.
+
+Loading equipment : Lack of or breakdown container pallet loader.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AU SOL / AIRCRAFT AND RAMP HANDLING</category>
+			<number>34</number>
+			<content>Piste: manque ou panne de matériel de piste (ASU, GPU, vidange toilettes, push back, escabeaux, etc.), tension personnel.
+
+Servicing equipment : Lack of or breakdown (ASU, GPU, toilet servicing equipment, staires), lack of staff.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AU SOL / AIRCRAFT AND RAMP HANDLING</category>
+			<number>35</number>
+			<content>Nettoyage de la cabine.
+
+Cabin cleaning</content>
+		</code>
+		<code>
+			<category>OPERATIONS AU SOL / AIRCRAFT AND RAMP HANDLING</category>
+			<number>36</number>
+			<content>Pleins, vidanges carburant.
+
+Fueling / Defueling.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AU SOL / AIRCRAFT AND RAMP HANDLING</category>
+			<number>37</number>
+			<content>Hôtellerie: retard dans la livraison ou le chargement des prestations.
+
+Catering : late delivery or loading.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AU SOL / AIRCRAFT AND RAMP HANDLING</category>
+			<number>38</number>
+			<content>Conteneurs / Palettes: Manque de ou défaut matériel.
+
+ULD : lack of serviceability.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AU SOL / AIRCRAFT AND RAMP HANDLING</category>
+			<number>39</number>
+			<content>Matériel technique: Manque ou panne de matériel technique, tension personnel technique.
+
+Technical equipment : Lack of equipment, lack of staff.</content>
+		</code>
+		<code>
+			<category>TECHNIQUE AVION / TECHNICAL AND AIRCRAFT EQUIPMENT</category>
+			<number>41</number>
+			<content>Pannes avion.
+
+Aircraft defects.</content>
+		</code>
+		<code>
+			<category>TECHNIQUE AVION / TECHNICAL AND AIRCRAFT EQUIPMENT</category>
+			<number>42</number>
+			<content>Visite d'entretien prévue: non terminée en temps voulu, retard mise en piste.
+
+Schedules maintenance,: late release.</content>
+		</code>
+		<code>
+			<category>TECHNIQUE AVION / TECHNICAL AND AIRCRAFT EQUIPMENT</category>
+			<number>43</number>
+			<content>Visite d'entretien non prévue: vérification spéciales et/ou travaux supplémentaires en dehors du planning normal d'entretien.
+
+Non-scheduled maintenance : special checks and/or additional works beyond normal maintenance schedule.</content>
+		</code>
+		<code>
+			<category>TECHNIQUE AVION / TECHNICAL AND AIRCRAFT EQUIPMENT</category>
+			<number>44</number>
+			<content>Pièces de rechange / matériel: manque de...
+
+Spares and maintenance equipment : lack of or breakdown.</content>
+		</code>
+		<code>
+			<category>TECHNIQUE AVION / TECHNICAL AND AIRCRAFT EQUIPMENT</category>
+			<number>45</number>
+			<content>Pièces de rechange "AOG": attente d'un AOG à transporter vers une autre escale.
+
+AOG spares : to be carried to another station.</content>
+		</code>
+		<code>
+			<category>TECHNIQUE AVION / TECHNICAL AND AIRCRAFT EQUIPMENT</category>
+			<number>46</number>
+			<content>Changement d'appareil pour des raisons techniques.
+
+Aircraft change for technical reasons.</content>
+		</code>
+		<code>
+			<category>TECHNIQUE AVION / TECHNICAL AND AIRCRAFT EQUIPMENT</category>
+			<number>47</number>
+			<content>Avion planifié en réserve indisponible: pour des raisons techniques.
+
+Standby aircraft, lack of planned standby aircraft for technical reasons.</content>
+		</code>
+		<code>
+			<category>TECHNIQUE AVION / TECHNICAL AND AIRCRAFT EQUIPMENT</category>
+			<number>48</number>
+			<content>Changement de la version cabine: civière, oxygène, etc.
+
+Scheduled cabin : Configuration / version adjustments : stretches, oxygen.</content>
+		</code>
+		<code>
+			<category>AVARIE SURVENUE A L'APPAREIL / DAMAGE TO AIRCRAFT</category>
+			<number>51</number>
+			<content>Avarie pendant le vol : Oiseau ou foudre, turbulence, atterrissage dur ou en surcharge, collision pendant le roulage.
+
+Damage during flight operations, bird or lightning strike, turbulence, heavy or overweight landing, collision during taxiing.</content>
+		</code>
+		<code>
+			<category>AVARIE SURVENUE A L'APPAREIL / DAMAGE TO AIRCRAFT</category>
+			<number>52</number>
+			<content>Avarie pendant les opérations au sol : Collisions (autres que pendant le roulage), avarie pendant le chargement ou le déchargement, tractage, dommage lié à des conditions météoroliques défavorables.
+
+Damage during ground operations, collisions (other than during taxiing), loading/offloading damage, contamination, towing, damage due to extreme weather conditions</content>
+		</code>
+		<code>
+			<category>PANNE DES SYSTEMES AUTOMATISES / AUTOMATED EQUIPMENT FAILURE</category>
+			<number>55</number>
+			<content>Enregistrement, Devis de masse, centrage, Plan de chargement.
+
+Check-in, Load sheet, Trim sheet, Loading instructions</content>
+		</code>
+		<code>
+			<category>PANNE DES SYSTEMES AUTOMATISES / AUTOMATED EQUIPMENT FAILURE</category>
+			<number>56</number>
+			<content>Retard lié à la préparation et la documentation du fret par un système informatique.
+
+Delay occured by DCS's Cargo preparation and documentation.</content>
+		</code>
+		<code>
+			<category>PANNE DES SYSTEMES AUTOMATISES / AUTOMATED EQUIPMENT FAILURE</category>
+			<number>57</number>
+			<content>Plans de vol opérationels.
+
+Flight plans.</content>
+		</code>
+		<code>
+			<category>PANNE DES SYSTEMES AUTOMATISES / AUTOMATED EQUIPMENT FAILURE</category>
+			<number>58</number>
+			<content>Tout autres systèmes.
+
+Other automated systems.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AERIENNES ET EQUIPAGES / FLIGHT OPERATIONS AND CREWING</category>
+			<number>61</number>
+			<content>Préparation du vol, rédaction ou modification, clearance, documentation de vol.
+
+Flight plan, late completion or change of flight documentation.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AERIENNES ET EQUIPAGES / FLIGHT OPERATIONS AND CREWING</category>
+			<number>62</number>
+			<content>Nécessités opérationnelles, compléments de pleins, modification de la charge.
+
+Operational requirements, fuel, load alteration.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AERIENNES ET EQUIPAGES / FLIGHT OPERATIONS AND CREWING</category>
+			<number>63</number>
+			<content>Attente de l'équipage PNT ou de l'équipage complet, autre que rotation ou équipage de réserve; procédure de départ.
+
+Late crew boarding or departure procedures, other than connection and standby; departures procedures.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AERIENNES ET EQUIPAGES / FLIGHT OPERATIONS AND CREWING</category>
+			<number>64</number>
+			<content>Equipage technique incomplet, maladie, attente équipage de réserve, limitations temps de vol et repos, repas, visa valide, documents de santé.
+
+Flight deck crew shortage, sickness, waiting standby, flight time limitations, crew meals, valid visa, health documents, etc.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AERIENNES ET EQUIPAGES / FLIGHT OPERATIONS AND CREWING</category>
+			<number>65</number>
+			<content>Demande particulières de l'équipage technique en dehors des necessités opérationnelles.
+
+Flight deck crew special requests not within operational requirements.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AERIENNES ET EQUIPAGES / FLIGHT OPERATIONS AND CREWING</category>
+			<number>66</number>
+			<content>Attente équipage PNC autre que rotation, équipage de réserve.
+
+Late cabin crew boarding or departure procedures, other than connection and standby.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AERIENNES ET EQUIPAGES / FLIGHT OPERATIONS AND CREWING</category>
+			<number>67</number>
+			<content>Equipage commercial incomplet, Maladies attente équipage de réserve, limitations temps de vol et repos, repas, visa valide, documents de santé.
+
+Cabin crew shortage, sickness, awaiting standby, flight time limitations, crew meals, valid visa, health documents.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AERIENNES ET EQUIPAGES / FLIGHT OPERATIONS AND CREWING</category>
+			<number>68</number>
+			<content>Erreur du PNC, ou demande spéciale du PNC en dehors des nécessités opérationnelles.
+
+Cabin crew error or special request, not within operationnal requirements.</content>
+		</code>
+		<code>
+			<category>OPERATIONS AERIENNES ET EQUIPAGES / FLIGHT OPERATIONS AND CREWING</category>
+			<number>69</number>
+			<content>Mesures de suretés complémentaires sur demande CDB.
+
+Captain request for security checks, extraordinary.</content>
+		</code>
+		<code>
+			<category>METEOROLOGIE / WEATHER</category>
+			<number>71</number>
+			<content>Mauvaises conditions météorologiques à l'escale de départ.
+
+Bad weather conditions at departure station.</content>
+		</code>
+		<code>
+			<category>METEOROLOGIE / WEATHER</category>
+			<number>72</number>
+			<content>Mauvaises conditions météorologiques à l'escale de destination.
+
+Bad weather conditions at destination station</content>
+		</code>
+		<code>
+			<category>METEOROLOGIE / WEATHER</category>
+			<number>73</number>
+			<content>Mauvaises conditions météorologiques sur la route ou sur l'ETF.
+
+Bad weather conditions enroute or alternate.</content>
+		</code>
+		<code>
+			<category>METEOROLOGIE / WEATHER</category>
+			<number>75</number>
+			<content>Dégivrage, balayage de la neige sur l'avion.
+
+De-Icing of aircraft, removal of ice and or snow frost.</content>
+		</code>
+		<code>
+			<category>METEOROLOGIE / WEATHER</category>
+			<number>76</number>
+			<content>Déblaiement de l'aéroport : neige, glace, eau, sable.
+
+Removal of snow, ice, water, sand from airport.</content>
+		</code>
+		<code>
+			<category>METEOROLOGIE / WEATHER</category>
+			<number>77</number>
+			<content>Assistance au sol génée par les conditions météorologiques exceptionnelles.
+
+Ground handling impaired by adverse weather conditions.</content>
+		</code>
+		<code>
+			<category>AUTORITES AEROPORTUAIRES OU GOUVERNEMENTALES / AIRPORT AND GOVERNMENTAL AUTHORITIES</category>
+			<number>81</number>
+			<content>ATC, restrictions trafic, créneaux.
+
+ATC, Flow restrictions, slots.</content>
+		</code>
+		<code>
+			<category>AUTORITES AEROPORTUAIRES OU GOUVERNEMENTALES / AIRPORT AND GOVERNMENTAL AUTHORITIES</category>
+			<number>82</number>
+			<content>ATC Mouvements sociaux, ou manque de personnel.
+
+ATC industrial action or staff storage.</content>
+		</code>
+		<code>
+			<category>AUTORITES AEROPORTUAIRES OU GOUVERNEMENTALES / AIRPORT AND GOVERNMENTAL AUTHORITIES</category>
+			<number>83</number>
+			<content>ATC en raison de restrictions à l'aéroport de destination : Aéroport ou piste fermée par obstructions : Mouvement sociaux ou politiques, normes de bruits, couvre feu, vols spéciaux.
+
+ATC due to restrictions at destination airport, airport and/or runway closed due to obstructions, industrial action, political unrest, noise abatement, night curfew, special flight.</content>
+		</code>
+		<code>
+			<category>AUTORITES AEROPORTUAIRES OU GOUVERNEMENTALES / AIRPORT AND GOVERNMENTAL AUTHORITIES</category>
+			<number>84</number>
+			<content>ATC lié aux conditions atmosphériques sur l'aéroport de destination.
+
+ATC due to bad weather codnitions at destination.</content>
+		</code>
+		<code>
+			<category>AUTORITES AEROPORTUAIRES OU GOUVERNEMENTALES / AIRPORT AND GOVERNMENTAL AUTHORITIES</category>
+			<number>85</number>
+			<content>Mesures de sûreté réglementaires passagers et/ou fret : Alerte à la bombe, reconnaissance bagages, etc.
+
+Mandatory security</content>
+		</code>
+		<code>
+			<category>AUTORITES AEROPORTUAIRES OU GOUVERNEMENTALES / AIRPORT AND GOVERNMENTAL AUTHORITIES</category>
+			<number>86</number>
+			<content>Police, douanes, santé.
+
+Immigration, Customs, Health</content>
+		</code>
+		<code>
+			<category>AUTORITES AEROPORTUAIRES OU GOUVERNEMENTALES / AIRPORT AND GOVERNMENTAL AUTHORITIES</category>
+			<number>87</number>
+			<content>Installations aéroportuaires : Parking encombré, éclairage, aérogare, salle d'embarquement.
+
+Airport Facilities, parking stands, ramp congestion, lighting, building, gate limitations, etc.</content>
+		</code>
+		<code>
+			<category>AUTORITES AEROPORTUAIRES OU GOUVERNEMENTALES / AIRPORT AND GOVERNMENTAL AUTHORITIES</category>
+			<number>88</number>
+			<content>Restrictions à l'aéroport de destination (sauf ATC): Aéroport ou piste fermée par obstructions : Mouvement sociaux ou politiques, normes de bruits, couvre feu, vols spéciaux.
+
+Restrictions at destination airport (except ATC), airport and/or runway closed due to obstructions, industrial action, political unrest, noise abatement, night curfew, special flights.</content>
+		</code>
+		<code>
+			<category>AUTORITES AEROPORTUAIRES OU GOUVERNEMENTALES / AIRPORT AND GOVERNMENTAL AUTHORITIES</category>
+			<number>89</number>
+			<content>Restrictions à l'aéroport de départ : Aéroport ou piste fermée par obstructions : Mouvement sociaux ou politiques, normes de bruits, couvre feu, vols spéciaux, attente clearance mise en route. 
+
+Restrictions at departure airport, airport and/or runway closed due to obstructions, industrial action, political unrest, noise abatement, night curfew, special flights, delay to the start up clearance.</content>
+		</code>
+		<code>
+			<category>CORRESPONDANCES, ROTATIONS, REGULATIONS / CONNECTIONS, ROTATIONS, OPERATIONS CONTROL</category>
+			<number>91</number>
+			<content>Chargement, passagers en correspondance en provenance d'un autre vol.
+
+Load, passengers and luggage connection from another flight.</content>
+		</code>
+		<code>
+			<category>CORRESPONDANCES, ROTATIONS, REGULATIONS / CONNECTIONS, ROTATIONS, OPERATIONS CONTROL</category>
+			<number>92</number>
+			<content>Erreur d'enregistrement de bout en bout, passagers et bagages.
+
+Through Check-in error, passenger and luggage</content>
+		</code>
+		<code>
+			<category>CORRESPONDANCES, ROTATIONS, REGULATIONS / CONNECTIONS, ROTATIONS, OPERATIONS CONTROL</category>
+			<number>93</number>
+			<content>Rotation avion, arrivée tardive de l'avion.
+
+Aircraft rotation, late arrival from another flight.</content>
+		</code>
+		<code>
+			<category>CORRESPONDANCES, ROTATIONS, REGULATIONS / CONNECTIONS, ROTATIONS, OPERATIONS CONTROL</category>
+			<number>94</number>
+			<content>Rotation de l'équipage commercial.
+
+Cabin crew rotation</content>
+		</code>
+		<code>
+			<category>CORRESPONDANCES, ROTATIONS, REGULATIONS / CONNECTIONS, ROTATIONS, OPERATIONS CONTROL</category>
+			<number>95</number>
+			<content>Rotation de l'équipage PNT.
+
+Cockpit crew rotation.</content>
+		</code>
+		<code>
+			<category>CORRESPONDANCES, ROTATIONS, REGULATIONS / CONNECTIONS, ROTATIONS, OPERATIONS CONTROL</category>
+			<number>96</number>
+			<content>Contrôles de l'exploitation, changement d'itinéraire, déroutement, groupage de vols, changement d'appareil pour raisons autres que technique.
+
+Operations control, rerouting, diversion, consolidation, aircraft change for reasons other than technical</content>
+		</code>
+		<code>
+			<category>REMARQUES DIVERS / MISCELLANEOUS</category>
+			<number>97</number>
+			<content>Conflits sociaux propres à CORSAIR.
+
+Industrial action within CORSAIR.</content>
+		</code>
+		<code>
+			<category>REMARQUES DIVERS / MISCELLANEOUS</category>
+			<number>98</number>
+			<content>Conflits sociaux extérieures à CORSAIR.
+
+Industrial action outside CORSAIR.</content>
+		</code>
+		<code>
+			<category>REMARQUES DIVERS / MISCELLANEOUS</category>
+			<number>99</number>
+			<content>Tout autre cas à expliquer dans la rubrique SI du message mouvement.
+
+This code shall be use only when it is clear that a reason can not be matched to a code above (explain in SI section of the departure message).</content>
+		</code>
+
+</annuaire>

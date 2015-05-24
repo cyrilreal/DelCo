@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="listViewBorder" format="reference" />
+    <attr name="textViewLook" format="reference" />
+    <attr name="dialogBackground" format="reference" />
+    <attr name="dialogBackgroundPlain" format="color" />
+    <attr name="groupRowColor" format="color" />
+    <attr name="groupIndicator" format="reference" />
+    <attr name="itemBackground" format="reference" />
+    <attr name="colorBackground" format="reference" />
+    <attr name="divider" format="reference" />
+    <attr name="divider50" format="reference" />
+
+</resources>

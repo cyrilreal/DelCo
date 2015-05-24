@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_root"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="?dialogBackgroundPlain"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/app_must_be_closed"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"
+        android:width="216dp" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:background="@drawable/btn_cdu"
+        android:text="@string/btnOK" >
+    </Button>
+
+</LinearLayout><!-- From: file:/C:/Users/Cyril/Documents/Programmation/AndroidStudioProjects/DelCo/app/src/main/res/layout/dialog_application_close.xml -->

@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="360dp"
+              android:layout_height="600dp"
+              android:layout_gravity="center"
+              android:background="@drawable/bevel_down"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tvHeader"
+        android:textColor="@color/colorWhite50">
+    </TextView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/settings"
+        android:textColor="@color/colorWhite"
+        android:textSize="20dp"/>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:background="@drawable/border_white">
+
+        <LinearLayout
+            android:id="@+id/LinearLayout01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dip"
+                android:text="@string/ChooseIataTable"
+                android:textColor="@color/colorWhite"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:id="@+id/rgCodesTable"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbtnIataStdEnglish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/iata_en"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnAegan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aegan"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnAerolineasArgentinas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aerolineas_argentinas"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnAirCanada"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/aircanada"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnAirFrance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/airfrance"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnCorsair"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/corsair"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnEasyJet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/easyjet"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnLufthansa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lufthansa"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnWizzAir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/wizz_air"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnTurkish"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/turkish_airlines"
+                    android:textSize="16dp"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvFontSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/settingsFontSize"
+                android:textColor="@color/colorWhite"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:id="@+id/rgFontSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbtnFontSmall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FontSizeSmall"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnFontMedium"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FontSizeMedium"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnFontLarge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/FontSizeLarge"
+                    android:textSize="16dp"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/tvSettingsTheme"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/settingsTheme"
+                android:textColor="@color/colorWhite"
+                android:textSize="16dp"
+                android:textStyle="bold"/>
+
+            <RadioGroup
+                android:id="@+id/rgThemeSelection"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/rbtnThemeAirbus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/airbus"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnThemeBoeing"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boeing"
+                    android:textSize="16dp"/>
+
+                <RadioButton
+                    android:id="@+id/rbtnThemeBoeingGrey"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/boeing_grey"
+                    android:textSize="16dp"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btnSettingsBack"
+        android:layout_width="80dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="8dp"
+        android:text="@string/btnOK"/>
+
+</LinearLayout>

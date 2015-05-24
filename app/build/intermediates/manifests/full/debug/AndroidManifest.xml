@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="aero.delco"
+    android:installLocation="auto"
+    android:versionCode="7"
+    android:versionName="@string/VersionNumber" >
+
+    <uses-sdk
+        android:minSdkVersion="4"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name" >
+        <activity android:name="aero.delco.ScreenMain" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="aero.delco.ScreenNumber" >
+        </activity>
+        <activity android:name="aero.delco.ScreenResultKeyword" >
+        </activity>
+        <activity android:name="aero.delco.ScreenResultNumber" >
+        </activity>
+        <activity android:name="aero.delco.ScreenPickKeyword" >
+        </activity>
+        <activity android:name="aero.delco.ScreenSettings" >
+        </activity>
+        <activity android:name="aero.delco.ScreenHelp" >
+        </activity>
+    </application>
+
+</manifest>

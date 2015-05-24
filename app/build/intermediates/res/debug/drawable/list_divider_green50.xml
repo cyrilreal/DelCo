@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle" >
+
+    <gradient
+        android:angle="0"
+        android:centerColor="@color/colorGreen50"
+        android:centerX="0.5"
+        android:endColor="@color/colorGreen25"
+        android:startColor="@color/colorGreen25"
+        android:type="linear" />
+
+</shape><!-- From: file:/C:/Users/Cyril/Documents/Programmation/AndroidStudioProjects/DelCo/app/src/main/res/drawable/list_divider_green50.xml -->

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:text="@string/tvHeader"
+        android:textColor="@color/colorWhite50" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <ExpandableListView
+            android:id="@+id/expListView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="2dp"
+            android:layout_weight="1"
+            android:background="?listViewBorder"
+            android:cacheColorHint="#00000000"
+            android:childDivider="?attr/divider50"
+            android:divider="?attr/divider"
+            android:dividerHeight="1dp"
+            android:groupIndicator="?groupIndicator"
+            tools:listitem="@layout/group_row" >
+
+        </ExpandableListView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btnNumber"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:text="@string/SearchByNumber"
+                android:textSize="18dp" />
+
+            <Button
+                android:id="@+id/btnWord"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:text="@string/SearchByKeyword"
+                android:textSize="18dp" />
+
+            <ImageButton
+                android:id="@+id/ibtnSettings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:src="@drawable/ic_menu_preferences" />
+
+            <ImageButton
+                android:id="@+id/ibtnHelp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_menu_help" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

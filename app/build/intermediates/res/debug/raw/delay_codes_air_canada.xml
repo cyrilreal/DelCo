@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annuaire>
+      <code><category>OTHERS AND AIR CANADA INTERNAL CODES</category><number>0</number><content>OWN AIRLINE GNB</content></code>
+      <code><category>OTHERS AND AIR CANADA INTERNAL CODES</category><number>09</number><content>SCHEDULED GROUND TIME LESS THAN DECLARED MINIMUM GROUND TIME SKD</content></code>
+      <code><category>PASSENGER AND BAGGAGE</category><number>11</number><content>LATE CHECK IN-ACCEPTANCE AFTER DEADLINE PSC</content></code>
+      <code><category>PASSENGER AND BAGGAGE</category><number>12</number><content>LATE CHECK IN- CONGESTION IN CHECK IN AREA PSX</content></code>
+      <code><category>PASSENGER AND BAGGAGE</category><number>13</number><content>CHECK-IN OR GATE MANPOWER UNAVAILABLE PMP</content></code>
+      <code><category>PASSENGER AND BAGGAGE</category><number>14</number><content>OVERSALES PDB</content></code>
+      <code><category>PASSENGER AND BAGGAGE</category><number>15</number><content>BOARDING PSG</content></code>
+      <code><category>PASSENGER AND BAGGAGE</category><number>16</number><content>COMMERCIAL (PUBLICITY/PASSENGER CONVENIENCE/VIP PCH</content></code>
+      <code><category>PASSENGER AND BAGGAGE</category><number>17</number><content>CATERING ORDER PSU</content></code>
+      <code><category>PASSENGER AND BAGGAGE</category><number>18</number><content>BAGGAGE PROCESSING ACB</content></code>
+      <code><category>PASSENGER AND BAGGAGE</category><number>19</number><content>LATE OR INCORRECT PROCESSING, LOADING OR UNLOADING OF CONNECTING BAGGAGE ACX</content></code>
+      <code><category>CARGO AND MAIL</category><number>21</number><content>DOCUMENTATION CGW</content></code>
+      <code><category>CARGO AND MAIL</category><number>22</number><content>LATE POSITIONING CGL</content></code>
+      <code><category>CARGO AND MAIL</category><number>25</number><content>OVERSALES CGC</content></code>
+      <code><category>CARGO AND MAIL</category><number>29</number><content>RAMP MANPOWER UNAVAILABLE ACP</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>31</number><content>AIRCRAFT DOCUMENTATION LATE/INACCURATE LOD</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>32</number><content>LOADING AND UNLOADING ACL</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>33</number><content>LOADING EQUIPMENT GNM</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>34</number><content>SERVICING EQUIPMENT &amp; TOWING WATER AND LAVATORY SERVICING ANT</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>35</number><content>AIRCRAFT CLEANING ACG</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>36</number><content>FUELLING/DEFUELLING ANF</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>37</number><content>CATERING/AIRCRAFT DAMAGE FROM CATERING SERVICES IFG</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>38</number><content>ULD CGU</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>39</number><content>TECHNICAL EQUIPMENT APU</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>41</number><content>AIRCRAFT DEFECTS (INCLUDES AOG) MTC</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>42</number><content>MAINTENANCE CHECK ON EQUIPMENT TURN EQM</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>44</number><content>MECHANICAL FAILURE-JAZZ MGR</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>45</number><content>AIRCRAFT HANDLING-JAZZ MTM</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>46</number><content>MATERIAL SHORTAGE-JAZZ MTR</content></code>
+      <code><category>AIRCRAFT AND RAMP HANDLING</category><number>47</number><content>MAINTENANCE GROOMING (ONLY YYZ/YUL/YVR) MTH</content></code>
+      <code><category>DAMAGE TO AIRCRAFT &amp; EDP / AUTOMATED EQUIPMENT FAILURE</category><number>51</number><content>DAMAGE DURING FLIGHT OPERATIONS FOI</content></code>
+      <code><category>DAMAGE TO AIRCRAFT &amp; EDP / AUTOMATED EQUIPMENT FAILURE</category><number>52</number><content>DAMAGE DURING GROUND OPERATIONS ACA</content></code>
+      <code><category>DAMAGE TO AIRCRAFT &amp; EDP / AUTOMATED EQUIPMENT FAILURE</category><number>55</number><content>DEPARTURE CONTROL SDC</content></code>
+      <code><category>DAMAGE TO AIRCRAFT &amp; EDP / AUTOMATED EQUIPMENT FAILURE</category><number>56</number><content>CARGO PREPARATION/DOCUMENTATION CGM</content></code>
+      <code><category>FLIGHT OPERATIONS AND CREWING</category><number>61</number><content>FLIGHT PLAN FDX</content></code>
+      <code><category>FLIGHT OPERATIONS AND CREWING</category><number>62</number><content>MINIMUM EQUIPMENT LIST (MEL) FOE</content></code>
+      <code><category>FLIGHT OPERATIONS AND CREWING</category><number>63</number><content>LATE CREW BOARDING OR DEPARTURE PROCEDURES FOU</content></code>
+      <code><category>FLIGHT OPERATIONS AND CREWING</category><number>64</number><content>PUSHBACK READINESS FOR</content></code>
+      <code><category>FLIGHT OPERATIONS AND CREWING</category><number>65</number><content>LEGAL CREW REST OR DUTY DAY EXPIRY FOC</content></code>
+      <code><category>FLIGHT OPERATIONS AND CREWING</category><number>66</number><content>LATE CABIN CREW BOARDING OR DEPARTURE PROCEDURES IFU</content></code>
+      <code><category>FLIGHT OPERATIONS AND CREWING</category><number>67</number><content>BAG STOWAGE AND CLEAN UP IFT</content></code>
+      <code><category>FLIGHT OPERATIONS AND CREWING</category><number>68</number><content>CABIN CREW ERROR OR SPECIAL REQUEST - OTHER IFS DELAYS-INCLUDING GALLEY IFO</content></code>
+      <code><category>FLIGHT OPERATIONS AND CREWING</category><number>69</number><content>CAPTAIN REQUEST FOR SECURITY CHECK - OR OTHER FLIGHT DECK CREW SPECIAL REQUEST FOA</content></code>
+      <code><category>WEATHER</category><number>71</number><content>DEPARTURE STATION WXL</content></code>
+      <code><category>WEATHER</category><number>73</number><content>EN ROUTE OR ALTERNATE EQW</content></code>
+      <code><category>WEATHER</category><number>75</number><content>DE-ICING OF AIRCRAFT WXS</content></code>
+      <code><category>WEATHER</category><number>77</number><content>GROUND HANDLING IMPAIRED BY ADVERSE WEATHER CONDITIONS WXR</content></code>
+      <code><category>AIR TRAFFIC FLOW MANAGEMENT RESTRICTIONS</category><number>81</number><content>ATFM DUE TO ATC EN ROUTE DEMAND/RSTN. ARPT. SOA</content></code>
+      <code><category>AIR TRAFFIC FLOW MANAGEMENT RESTRICTIONS</category><number>83</number><content>ATFM DUE TO RESTRICTION AT DESTINATION AIRPORT SUR</content></code>
+      <code><category>AIR TRAFFIC FLOW MANAGEMENT RESTRICTIONS</category><number>84</number><content>ATFM DUE TO WEATHER AT DESTINATION WXD</content></code>
+      <code><category>AIRPORT AND GOVERNMENTAL AUTHORITIES</category><number>85</number><content>MANDATORY SECURITY SES</content></code>
+      <code><category>AIRPORT AND GOVERNMENTAL AUTHORITIES</category><number>86</number><content>IMMIGRATION, CUSTOMS SEI</content></code>
+      <code><category>AIRPORT AND GOVERNMENTAL AUTHORITIES</category><number>87</number><content>SEQUENCING PROCESS SEB</content></code>
+      <code><category>AIRPORT AND GOVERNMENTAL AUTHORITIES</category><number>88</number><content>RESTRICTIONS AT AIRPORT OF DESTINATION- AIRPORT FACILITIES ANB</content></code>
+      <code><category>AIRPORT AND GOVERNMENTAL AUTHORITIES</category><number>89</number><content>RESTRICTION AT AIRPORT OF DEPARTURES WITH OR WITHOUT ATFM RESTRICTIONS SEE</content></code>
+      <code><category>MISCELLANEOUS</category><number>91</number><content>LOAD CONNECTION CNX</content></code>
+      <code><category>MISCELLANEOUS</category><number>92</number><content>THROUGH TRU</content></code>
+      <code><category>MISCELLANEOUS</category><number>93</number><content>AIRCRAFT ROTATION EQI</content></code>
+      <code><category>MISCELLANEOUS</category><number>94</number><content>CABIN CREW ROTATION IFX</content></code>
+      <code><category>MISCELLANEOUS</category><number>95</number><content>ROTATION FOX</content></code>
+      <code><category>MISCELLANEOUS</category><number>96</number><content>OPERATIONS CONTROL SOP</content></code>
+      <code><category>MISCELLANEOUS</category><number>97</number><content>INDUSTRIAL ACTION WITH OWN AIRLINE SOM</content></code>
+      <code><category>MISCELLANEOUS</category><number>98</number><content>INDUSTRIAL ACTION WITHIN OWN AIRLINE SOW</content></code>
+      <code><category>MISCELLANEOUS</category><number>99</number><content>OTHER REASON - EARLY XXX </content></code>
+</annuaire>

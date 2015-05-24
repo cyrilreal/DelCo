@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/tvHeader"
+        android:textColor="@color/colorWhite50" />
+
+    <ExpandableListView
+        android:id="@+id/expListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="4dp"
+        android:layout_weight="1"
+        android:background="?listViewBorder"
+        android:cacheColorHint="#00000000"
+        android:childDivider="?attr/divider50"
+        android:divider="?attr/divider"
+        android:dividerHeight="1dp"
+        android:groupIndicator="?groupIndicator"
+        tools:listitem="@layout/group_row" >
+
+    </ExpandableListView>
+
+    <LinearLayout
+        android:id="@+id/linlaySearchButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/btnNumber"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/SearchByNumber"
+            android:textSize="18dp" >
+
+        </Button>
+
+        <Button
+            android:id="@+id/btnWord"
+            android:layout_width="96dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/SearchByKeyword"
+            android:textSize="18dp" >
+
+        </Button>
+
+        <ImageButton
+            android:id="@+id/ibtnSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_menu_preferences" >
+        </ImageButton>
+
+        <ImageButton
+            android:id="@+id/ibtnHelp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_menu_help" >
+        </ImageButton>
+    </LinearLayout>
+
+</LinearLayout>

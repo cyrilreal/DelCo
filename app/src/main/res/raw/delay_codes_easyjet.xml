@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annuaire>
+<code>
+		<category>Airline  Internal Codes</category>
+		<number>00</number>
+		<content>Self manoeuvring departure.</content>
+	</code>
+	<code>
+		<category>Airline  Internal Codes</category>
+		<number>01</number>
+		<content>Baggage System Failure.</content>
+	</code>
+	<code>
+		<category>Airline  Internal Codes</category>
+		<number>02</number>
+		<content>Technical defect which is already in the Tech Log affecting turnround (max 10 min) and system resets.</content>
+	</code>
+	<code>
+		<category>Airline  Internal Codes</category>
+		<number>03</number>
+		<content>Late release of passengers for boarding.</content>
+	</code>
+	<code>
+		<category>Airline  Internal Codes</category>
+		<number>04</number>
+		<content>Special Assistance.</content>
+	</code>
+	<code>
+		<category>Airline  Internal Codes</category>
+		<number>05</number>
+		<content>Offload of passenger(s) and/or baggage at gate including disruptive passengers in the airport.</content>
+	</code>
+	<code>
+		<category>Others</category>
+		<number>06</number>
+		<content>Flight Crew Training Requirements.</content>
+	</code>
+	<code>
+		<category>Others</category>
+		<number>07</number>
+		<content>Cabin Crew Training Requirements.</content>
+	</code>
+	<code>
+		<category>Others</category>
+		<number>09</number>
+		<content>Scheduled ground time less than declared minimum.</content>
+	</code>
+	<code>
+		<category>Passenger and Baggage</category>
+		<number>10</number>
+		<content>Offload of bags from cabin to hold.</content>
+	</code>
+	<code>
+		<category>Passenger and Baggage</category>
+		<number>11</number>
+		<content>Late check-in, acceptance after deadline.</content>
+	</code>
+	<code>
+		<category>Passenger and Baggage</category>
+		<number>12</number>
+		<content>Late check-in, congestion in check-in area.</content>
+	</code>
+	<code>
+		<category>Passenger and Baggage</category>
+		<number>13</number>
+		<content>Check-in error, passenger and/or baggage</content>
+	</code>
+	<code>
+		<category>Passenger and Baggage</category>
+		<number>14</number>
+		<content>Oversales, booking errors.</content>
+	</code>
+	<code>
+		<category>Passenger and Baggage</category>
+		<number>15</number>
+		<content>Boarding including discrepancies and paging, missing checked in passenger.</content>
+	</code>
+	<code>
+		<category>Passenger and Baggage</category>
+		<number>16</number>
+		<content>Commercial Publicity/Passenger Convenience, VIP, Press and missing personal items.</content>
+	</code>
+	<code>
+		<category>Passenger and Baggage</category>
+		<number>17</number>
+		<content>Crew Food.</content>
+	</code>
+	<code>
+		<category>Passenger and Baggage</category>
+		<number>18</number>
+		<content>Baggage Processing, Sorting etc.</content>
+	</code>
+	<code>
+		<category>Passenger and Baggage</category>
+		<number>19</number>
+		<content>Passenger and/or Crew coaching.</content>
+	</code>
+		<code>
+		<category>Aircraft and Ramp Handling</category>
+		<number>31</number>
+		<content>Aircraft Documentation Late or Inaccurate.</content>
+	</code>
+	<code>
+		<category>Aircraft and Ramp Handling</category>
+		<number>32</number>
+		<content>Loading/Unloading, bulky, special load, lack of loading staff.</content>
+	</code>
+	<code>
+		<category>Aircraft and Ramp Handling</category>
+		<number>34</number>
+		<content>Servicing Equipment, lack of or breakdown, lack of staff.</content>
+	</code>
+	<code>
+		<category>Aircraft and Ramp Handling</category>
+		<number>35</number>
+		<content>Aircraft Cleaning.</content>
+	</code>
+	<code>
+		<category>Aircraft and Ramp Handling</category>
+		<number>36</number>
+		<content>Fuelling/Defuelling, fuel supplier.</content>
+	</code>
+	<code>
+		<category>Aircraft and Ramp Handling</category>
+		<number>37</number>
+		<content>Passenger Catering.</content>
+	</code>
+	<code>
+		<category>Technical and Aircraft Equipment</category>
+		<number>41</number>
+		<content>Aircraft Defects.</content>
+	</code>
+	<code>
+		<category>Technical and Aircraft Equipment</category>
+		<number>42</number>
+		<content>Maintenance.</content>
+	</code>
+	<code>
+		<category>Technical and Aircraft Equipment</category>
+		<number>43</number>
+		<content>Non-scheduled Maintenance.</content>
+	</code>
+	<code>
+		<category>Technical and Aircraft Equipment</category>
+		<number>44</number>
+		<content>Spares and Maintenance Equipment. Lack of or breakdown.</content>
+	</code>
+	<code>
+		<category>Technical and Aircraft Equipment</category>
+		<number>45</number>
+		<content>AOG Spares To be carried to another station.</content>
+	</code>
+	<code>
+		<category>Technical and Aircraft Equipment</category>
+		<number>46</number>
+		<content>Aircraft Change, for technical reasons.</content>
+	</code>
+	<code>
+		<category>Damage to Aircraft</category>
+		<number>51</number>
+		<content>Damage during Flight Operations.</content>
+	</code>
+	<code>
+		<category>Damage to Aircraft</category>
+		<number>52</number>
+		<content>Damage during Ground Operations.</content>
+	</code>
+		<code>
+		<category>EDP Automated Equipment Failure</category>
+		<number>57</number>
+		<content>Flight Planning system failure.</content>
+	</code>
+	<code>
+		<category>EDP Automated Equipment Failure</category>
+		<number>58</number>
+		<content>Other automated system.</content>
+	</code>
+	<code>
+		<category>Flight Operations and Crewing</category>
+		<number>61</number>
+		<content>Flight Plan.</content>
+	</code>
+	<code>
+		<category>Flight Operations and Crewing</category>
+		<number>62</number>
+		<content>Operational Requirements, fuel, load alteration.</content>
+	</code>
+	<code>
+		<category>Flight Operations and Crewing</category>
+		<number>63</number>
+		<content>Late Crew Boarding or Departure Procedures, other than connection/standby (flight deck or entire crew).</content>
+	</code>
+	<code>
+		<category>Flight Operations and Crewing</category>
+		<number>64</number>
+		<content>Flight Deck Crew Shortage, sickness, awaiting standby, FTL, crew meals, valid visa/health docs etc.</content>
+	</code>
+	<code>
+		<category>Flight Operations and Crewing</category>
+		<number>65</number>
+		<content>Flight Deck Crew Special Request, not within operational requirements.</content>
+	</code>
+	<code>
+		<category>Flight Operations and Crewing</category>
+		<number>66</number>
+		<content>Late Cabin Crew Boarding or Departure Procedures, other than connection and standby.</content>
+	</code>
+	<code>
+		<category>Flight Operations and Crewing</category>
+		<number>67</number>
+		<content>Cabin Crew Shortage, sickness, awaiting standby, FTL, valid visa/health documents.</content>
+	</code>
+	<code>
+		<category>Flight Operations and Crewing</category>
+		<number>68</number>
+		<content>Cabin Crew Error or Non Operational Special Request.</content>
+	</code>
+		<code>
+		<category>Weather</category>
+		<number>71</number>
+		<content>Weather at Departure Station.</content>
+	</code>
+	<code>
+		<category>Weather</category>
+		<number>72</number>
+		<content>WT Weather at Destination Station.</content>
+	</code>
+		<code>
+		<category>Weather</category>
+		<number>75</number>
+		<content>De-Icing of aircraft.</content>
+	</code>
+	<code>
+		<category>Weather</category>
+		<number>76</number>
+		<content>Removal of Snow, Ice, Water, or Sand from Airport.</content>
+	</code>
+	<code>
+		<category>Weather</category>
+		<number>77</number>
+		<content>Ground Handling Impaired by Adverse Weather Conditions.</content>
+	</code>
+		<code>
+		<category>Air Traffic Flow Management Restrictions</category>
+		<number>83</number>
+		<content>Restrictions at Departure Station with or without slot restrictions.</content>
+	</code>
+	<code>
+		<category>Air Traffic Flow Management Restrictions</category>
+		<number>84</number>
+		<content>ATC, missed original slot.</content>
+	</code>
+	<code>
+		<category>Airport and Governmental Authorities</category>
+		<number>85</number>
+		<content>Mandatory security.</content>
+	</code>
+	<code>
+		<category>Airport and Governmental Authorities</category>
+		<number>86</number>
+		<content>Immigration, Customs, Health. Passenger or Crew security search.</content>
+	</code>
+	<code>
+		<category>Airport and Governmental Authorities</category>
+		<number>87</number>
+		<content>Airport Facilities.</content>
+	</code>
+	<code>
+		<category>Airport and Governmental Authorities</category>
+		<number>88</number>
+		<content>Restrictions at Destination Airport.</content>
+	</code>
+	<code>
+		<category>Airport and Governmental Authorities</category>
+		<number>89</number>
+		<content>Restrictions at Departure Airport.</content>
+	</code>
+	<code>
+		<category>Reactionary</category>
+		<number>93</number>
+		<content>Aircraft Rotation.</content>
+	</code>
+	<code>
+		<category>Reactionary</category>
+		<number>94</number>
+		<content>Cabin Crew Rotation.</content>
+	</code>
+	<code>
+		<category>Reactionary</category>
+		<number>95</number>
+		<content>Crew Rotation.</content>
+	</code>
+	<code>
+		<category>Reactionary</category>
+		<number>96</number>
+		<content>Operations Control.</content>
+	</code>
+	<code>
+		<category>Miscellaneous</category>
+		<number>97</number>
+		<content>Industrial Action, within own airline.</content>
+	</code>
+	<code>
+		<category>Miscellaneous</category>
+		<number>98</number>
+		<content>Industrial Action, outside own airline excluding ATS.</content>
+	</code>
+	<code>
+		<category>Miscellaneous</category>
+		<number>99</number>
+		<content>Reason does not match any code.</content>
+	</code>
+</annuaire>
