@@ -10,78 +10,83 @@ import android.widget.TextView;
 
 public class ScreenResultNumber extends Activity implements OnClickListener {
 
-	Button btnCodePrevious;
-	Button btnCodeNext;
-	Button btnOK;
+    Button btnCodePrevious;
+    Button btnCodeNext;
+    Button btnOK;
 
-	TextView tvCodeNumber;
-	TextView tvCodeContent;
-	TextView tvCode;
-	
-	String[] arrayCodeNumber;
-	String[] arrayCodeContent;
+    TextView tvCodeNumber;
+    TextView tvCodeContent;
+    TextView tvCode;
 
-	int index;
+    String[] arrayCodeNumber;
+    String[] arrayCodeContent;
 
-	/** Called when the activity is first created. */
-	@Override
-	public void onCreate(Bundle savedInstanceState) {
-		Utils.applySharedTheme(this);
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.screen_result_number);
+    int index;
 
-		// construct arrays
-		Bundle extras = getIntent().getExtras();
-		if (extras != null) {
-			arrayCodeNumber = extras.getStringArray("codeNumbers");
-			arrayCodeContent = extras.getStringArray("codeContents");
-			index = extras.getInt("index", 0);
-		}
-		initComponents();
+    /**
+     * Called when the activity is first created.
+     */
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        Utils.applySharedTheme(this);
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.screen_result_number);
 
-		// display the appropriate code
-		displayCode(index);
-	}
+        // construct arrays
+        Bundle extras = getIntent().getExtras();
+        if (extras != null) {
+            arrayCodeNumber = extras.getStringArray("codeNumbers");
+            arrayCodeContent = extras.getStringArray("codeContents");
+            index = extras.getInt("index", 0);
+        }
+        initComponents();
 
-	public void initComponents() {
-		tvCodeNumber = (TextView) findViewById(R.id.tvCodeNumber);
-		tvCodeContent = (TextView) findViewById(R.id.tvCodeContent);
-		btnCodePrevious = (Button) findViewById(R.id.btnPreviousCode);
-		btnCodePrevious.setOnClickListener(this);
-		btnCodeNext = (Button) findViewById(R.id.btnNextCode);
-		btnCodeNext.setOnClickListener(this);
-		btnOK = (Button) findViewById(R.id.btnOK);
-		btnOK.setOnClickListener(this);
-		
-		Utils.setupFontSizeTitle(this,tvCodeNumber);
-		Utils.setupFontSize(this, tvCodeContent);
-	}
+        // display the appropriate code
+        displayCode(index);
+    }
 
-	@Override
-	public void onClick(View v) {
+    public void initComponents() {
+        tvCodeNumber = (TextView) findViewById(R.id.tvCodeNumber);
+        tvCodeContent = (TextView) findViewById(R.id.tvCodeContent);
+        btnCodePrevious = (Button) findViewById(R.id.btnPreviousCode);
+        btnCodePrevious.setOnClickListener(this);
+        btnCodeNext = (Button) findViewById(R.id.btnNextCode);
+        btnCodeNext.setOnClickListener(this);
+        btnOK = (Button) findViewById(R.id.btnOK);
+        btnOK.setOnClickListener(this);
 
-		if (v == btnCodePrevious) {
-			if (index > 0) {
-				index--;
-				displayCode(index);
-			}
-		}
+        Utils.setupFontSizeTitle(this, tvCodeNumber);
+        Utils.setupFontSize(this, tvCodeContent);
+    }
 
-		if (v == btnCodeNext) {
-			if (index < arrayCodeNumber.length - 1) {
-				index++;
-				displayCode(index);
-			}
-		}
+    @Override
+    public void onClick(View v) {
 
-		if (v == btnOK) {
-			setResult(RESULT_OK);
-			finish();
-		}
-	}
+        if (v == btnCodePrevious) {
+            if (index > 0) {
+                index--;
+                displayCode(index);
+            }
+        }
 
-	private void displayCode(int index) {
-		tvCodeNumber.setText("Code  " + arrayCodeNumber[index]);
-		tvCodeContent.setText(Html.fromHtml(arrayCodeContent[index]));
-	}
+        if (v == btnCodeNext) {
+            if (index < arrayCodeNumber.length - 1) {
+                index++;
+                displayCode(index);
+            }
+        }
+
+        if (v == btnOK) {
+            setResult(RESULT_OK);
+            finish();
+        }
+    }
+
+    private void displayCode(int index) {
+        tvCodeNumber.setText("Code  " + arrayCodeNumber[index]);
+        if (arrayCodeContent[index].contains("</") || arrayCodeContent[index].contains("<br>"))
+            tvCodeContent.setText(Html.fromHtml(arrayCodeContent[index]));
+        else
+            tvCodeContent.setText(arrayCodeContent[index]);
+    }
 }

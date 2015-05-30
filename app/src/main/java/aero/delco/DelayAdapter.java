@@ -14,36 +14,41 @@ import android.widget.TextView;
 
 public class DelayAdapter extends ArrayAdapter<DelayCode> {
 
-	private Context c;
+    private Context c;
 
-	public DelayAdapter(Context context, int textViewResourceId,
-			ArrayList<DelayCode> codes) {
-		super(context, textViewResourceId, codes);
-		c = context;
-	}
+    public DelayAdapter(Context context, int textViewResourceId,
+                        ArrayList<DelayCode> codes) {
+        super(context, textViewResourceId, codes);
+        c = context;
+    }
 
-	public View getView(int position, View convertView, ViewGroup parent) {
-		ViewHolder viewHolder = null;
-		TextView number = null;
-		TextView content = null;
+    public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHolder viewHolder = null;
+        TextView number = null;
+        TextView content = null;
 
-		DelayCode delayCode = getItem(position);
+        DelayCode delayCode = getItem(position);
 
-		if (convertView == null) {
-			convertView = LayoutInflater.from(c).inflate(R.layout.child_row,
-					null);
-			viewHolder = new ViewHolder(convertView);
-			convertView.setTag(viewHolder);
-		}
-		viewHolder = (ViewHolder) convertView.getTag();
-		number = viewHolder.getNumber();
-		number.setText(delayCode.getNumber());
-		content = viewHolder.getContent();
-		content.setText(Html.fromHtml(delayCode.getContent()));
+        if (convertView == null) {
+            convertView = LayoutInflater.from(c).inflate(R.layout.child_row,
+                    null);
+            viewHolder = new ViewHolder(convertView);
+            convertView.setTag(viewHolder);
+        }
+        viewHolder = (ViewHolder) convertView.getTag();
+        number = viewHolder.getNumber();
+        number.setText(delayCode.getNumber());
+        content = viewHolder.getContent();
 
-		Utils.setupFontSize(c, number);
-		Utils.setupFontSize(c, content);
+        // test if some html code is present
+        if (delayCode.getContent().contains("</") || delayCode.getContent().contains("<br>"))
+            content.setText(Html.fromHtml(delayCode.getContent()));
+        else
+            content.setText(delayCode.getContent());
 
-		return convertView;
-	}
+        Utils.setupFontSize(c, number);
+        Utils.setupFontSize(c, content);
+
+        return convertView;
+    }
 }

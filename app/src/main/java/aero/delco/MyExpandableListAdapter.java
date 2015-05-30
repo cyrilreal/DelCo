@@ -13,157 +13,161 @@ import android.widget.TextView;
 
 public class MyExpandableListAdapter extends BaseExpandableListAdapter {
 
-	private ArrayList<String> groups;
+    private ArrayList<String> groups;
 
-	private ArrayList<ArrayList<DelayCode>> children;
+    private ArrayList<ArrayList<DelayCode>> children;
 
-	private Context context;
-	
-	private int fontSize;
+    private Context context;
 
-	public MyExpandableListAdapter(Context context, List<String> groups,
-			List<ArrayList<DelayCode>> children) {
-		this.context = context;
-		this.groups = (ArrayList<String>) groups;
-		this.children = (ArrayList<ArrayList<DelayCode>>) children;
-		
-		fontSize = Utils.getSharedFontSize(context);
-	}
+    private int fontSize;
 
-	@Override
-	public boolean areAllItemsEnabled() {
-		return true;
-	}
+    public MyExpandableListAdapter(Context context, List<String> groups,
+                                   List<ArrayList<DelayCode>> children) {
+        this.context = context;
+        this.groups = (ArrayList<String>) groups;
+        this.children = (ArrayList<ArrayList<DelayCode>>) children;
 
-	@Override
-	public DelayCode getChild(int groupPosition, int childPosition) {
-		return children.get(groupPosition).get(childPosition);
-	}
+        fontSize = Utils.getSharedFontSize(context);
+    }
 
-	@Override
-	public long getChildId(int groupPosition, int childPosition) {
-		return childPosition;
-	}
+    @Override
+    public boolean areAllItemsEnabled() {
+        return true;
+    }
 
-	@Override
-	public View getChildView(int groupPosition, int childPosition,
-			boolean isLastChild, View convertView, ViewGroup parent) {
+    @Override
+    public DelayCode getChild(int groupPosition, int childPosition) {
+        return children.get(groupPosition).get(childPosition);
+    }
 
-		DelayCode child = (DelayCode) getChild(groupPosition, childPosition);
+    @Override
+    public long getChildId(int groupPosition, int childPosition) {
+        return childPosition;
+    }
 
-		if (convertView == null) {
-			LayoutInflater inflater = (LayoutInflater) context
-					.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-			convertView = inflater.inflate(R.layout.child_row, null);
-		}
+    @Override
+    public View getChildView(int groupPosition, int childPosition,
+                             boolean isLastChild, View convertView, ViewGroup parent) {
 
-		TextView codeNumber = (TextView) convertView
-				.findViewById(R.id.tvCodeNumber);
-		TextView codeContent = (TextView) convertView
-				.findViewById(R.id.tvCodeContent);
+        DelayCode child = (DelayCode) getChild(groupPosition, childPosition);
 
-		codeNumber.setText(child.getNumber());
-		codeContent.setText(Html.fromHtml(child.getContent()));
-		setupFontSize(codeNumber);
-		setupFontSize(codeContent);
+        if (convertView == null) {
+            LayoutInflater inflater = (LayoutInflater) context
+                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            convertView = inflater.inflate(R.layout.child_row, null);
+        }
 
-		return convertView;
-	}
+        TextView codeNumber = (TextView) convertView
+                .findViewById(R.id.tvCodeNumber);
+        TextView codeContent = (TextView) convertView
+                .findViewById(R.id.tvCodeContent);
 
-	@Override
-	public int getChildrenCount(int groupPosition) {
-		return children.get(groupPosition).size();
-	}
+        codeNumber.setText(child.getNumber());
+        if (child.getContent().contains("</") || child.getContent().contains("<br>"))
+            codeContent.setText(Html.fromHtml(child.getContent()));
+        else
+            codeContent.setText(child.getContent());
 
-	@Override
-	public String getGroup(int groupPosition) {
-		return groups.get(groupPosition);
-	}
+        setupFontSize(codeNumber);
+        setupFontSize(codeContent);
 
-	@Override
-	public int getGroupCount() {
-		return groups.size();
-	}
+        return convertView;
+    }
 
-	@Override
-	public long getGroupId(int groupPosition) {
-		return groupPosition;
-	}
+    @Override
+    public int getChildrenCount(int groupPosition) {
+        return children.get(groupPosition).size();
+    }
 
-	@Override
-	public View getGroupView(int groupPosition, boolean isExpanded,
-			View convertView, ViewGroup parent) {
+    @Override
+    public String getGroup(int groupPosition) {
+        return groups.get(groupPosition);
+    }
 
-		String group = (String) getGroup(groupPosition);
+    @Override
+    public int getGroupCount() {
+        return groups.size();
+    }
 
-		if (convertView == null) {
-			LayoutInflater inflater = (LayoutInflater) context
-					.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-			convertView = inflater.inflate(R.layout.group_row, null);
-		}
+    @Override
+    public long getGroupId(int groupPosition) {
+        return groupPosition;
+    }
 
-		TextView tvGroup = (TextView) convertView
-				.findViewById(R.id.tvGroupName);
+    @Override
+    public View getGroupView(int groupPosition, boolean isExpanded,
+                             View convertView, ViewGroup parent) {
 
-		tvGroup.setText(group);
-		setupFontSizeTitle(tvGroup);
+        String group = (String) getGroup(groupPosition);
 
-		return convertView;
-	}
+        if (convertView == null) {
+            LayoutInflater inflater = (LayoutInflater) context
+                    .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+            convertView = inflater.inflate(R.layout.group_row, null);
+        }
 
-	@Override
-	public boolean hasStableIds() {
-		return true;
-	}
+        TextView tvGroup = (TextView) convertView
+                .findViewById(R.id.tvGroupName);
 
-	@Override
-	public boolean isChildSelectable(int arg0, int arg1) {
-		return true;
-	}
+        tvGroup.setText(group);
+        setupFontSizeTitle(tvGroup);
 
-	private void setupFontSize(TextView tv) {
+        return convertView;
+    }
 
-		switch (fontSize) {
-		case Utils.FONT_SIZE_SMALL:
-			tv.setTextAppearance(context, R.style.fontTextSmall);
-			break;
+    @Override
+    public boolean hasStableIds() {
+        return true;
+    }
 
-		case Utils.FONT_SIZE_MEDIUM:
-			tv.setTextAppearance(context, R.style.fontTextMedium);
-			break;
+    @Override
+    public boolean isChildSelectable(int arg0, int arg1) {
+        return true;
+    }
 
-		case Utils.FONT_SIZE_LARGE:
-			tv.setTextAppearance(context, R.style.fontTextLarge);
-			break;
+    private void setupFontSize(TextView tv) {
 
-		default:
-			tv.setTextAppearance(context, R.style.fontTextMedium);
-			break;
-		}
-	}
+        switch (fontSize) {
+            case Utils.FONT_SIZE_SMALL:
+                tv.setTextAppearance(context, R.style.fontTextSmall);
+                break;
 
-	private void setupFontSizeTitle(TextView tv) {
+            case Utils.FONT_SIZE_MEDIUM:
+                tv.setTextAppearance(context, R.style.fontTextMedium);
+                break;
 
-		switch (fontSize) {
-		case Utils.FONT_SIZE_SMALL:
-			tv.setTextAppearance(context, R.style.fontTitleSmall);
-			break;
+            case Utils.FONT_SIZE_LARGE:
+                tv.setTextAppearance(context, R.style.fontTextLarge);
+                break;
 
-		case Utils.FONT_SIZE_MEDIUM:
-			tv.setTextAppearance(context, R.style.fontTitleMedium);
-			break;
+            default:
+                tv.setTextAppearance(context, R.style.fontTextMedium);
+                break;
+        }
+    }
 
-		case Utils.FONT_SIZE_LARGE:
-			tv.setTextAppearance(context, R.style.fontTitleLarge);
-			break;
+    private void setupFontSizeTitle(TextView tv) {
 
-		default:
-			tv.setTextAppearance(context, R.style.fontTitleMedium);
-			break;
-		}
-	}
-	
-	public void setFontSize(int fontSize) {
-		this.fontSize = fontSize;
-	}
+        switch (fontSize) {
+            case Utils.FONT_SIZE_SMALL:
+                tv.setTextAppearance(context, R.style.fontTitleSmall);
+                break;
+
+            case Utils.FONT_SIZE_MEDIUM:
+                tv.setTextAppearance(context, R.style.fontTitleMedium);
+                break;
+
+            case Utils.FONT_SIZE_LARGE:
+                tv.setTextAppearance(context, R.style.fontTitleLarge);
+                break;
+
+            default:
+                tv.setTextAppearance(context, R.style.fontTitleMedium);
+                break;
+        }
+    }
+
+    public void setFontSize(int fontSize) {
+        this.fontSize = fontSize;
+    }
 }

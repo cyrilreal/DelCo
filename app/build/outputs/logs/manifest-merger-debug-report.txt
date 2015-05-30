@@ -60,18 +60,14 @@ activity#aero.delco.ScreenHelp
 ADDED from AndroidManifest.xml:28:9
 	android:name
 		ADDED from AndroidManifest.xml:28:19
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from AndroidManifest.xml:32:5
-	android:name
-		ADDED from AndroidManifest.xml:32:22
 uses-sdk
-ADDED from AndroidManifest.xml:34:5
+ADDED from AndroidManifest.xml:32:5
 MERGED from com.android.support:support-v4:22.1.1:20:5
 	android:targetSdkVersion
-		ADDED from AndroidManifest.xml:36:9
+		ADDED from AndroidManifest.xml:34:9
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0
 	android:minSdkVersion
-		ADDED from AndroidManifest.xml:35:9
+		ADDED from AndroidManifest.xml:33:9
 		INJECTED from AndroidManifest.xml:0:0
 		INJECTED from AndroidManifest.xml:0:0

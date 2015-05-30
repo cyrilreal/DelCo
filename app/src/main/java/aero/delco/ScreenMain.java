@@ -347,6 +347,14 @@ public class ScreenMain extends FragmentActivity implements
             if (codes.get(i).getNumber().equals(str)) {
                 return i;
             }
+            // case of code numbers < 10 which could be numbered X or 0X
+            if (str.length() < 2){
+                str = "0" + str;
+
+                if (codes.get(i).getNumber().equals(str)) {
+                    return i;
+                }
+            }
         }
 
         Toast.makeText(this, getString(R.string.toastNoCodeFound),

@@ -1,0 +1,4 @@
+v1.4
+- Turkish Airlines codes
+- text formatting (bold, italic now possible)
+- bug fix : no code found when searching "5" iso "05" (codes < 10)
